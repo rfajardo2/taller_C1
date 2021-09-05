@@ -78,6 +78,20 @@ pulsaciones = (200-edad)/10
 
 print(f'La persona debe tener: {pulsaciones} / s')
 
+# ejercicio 3.
+
+inversion1 = float(input('Digite el valor invertido por el primer socio: $ '))
+inversion2 = float(input('Digite el valor invertido por el segundo socio: $ '))
+inversion3 = float(input('Digite el valor invertido por el tercer socio: $ '))
+
+inversionTotal = inversion1 + inversion2 + inversion3
+porcentaje1 = (inversion1/inversionTotal)*100 
+porcentaje2 = (inversion2/inversionTotal)*100
+porcentaje3 = (inversion3/inversionTotal)*100
+
+print(f'El porcentaje que invirtió el primer socio es: {porcentaje1} %')
+print(f'El porcentaje que invirtió el segundo socio es: {porcentaje2} %')
+print(f'El porcentaje que invirtió el tercer socio es: {porcentaje3} %')
 
 
 
