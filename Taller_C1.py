@@ -198,8 +198,17 @@ valor = (dias * 200000)-100000
 
 print(f'El valor de su estadia es: ${valor}')
 
+# ejercicio 15.
 
+prestamo = float(input('Digite la cantidad prestada al empresario: $'))
+baseCuotaEsp = prestamo/2
+cuotaEsp = baseCuotaEsp / 4
+valorCuotaEsp = cuotaEsp + (cuotaEsp * 0.24)
+baseCuotaOrdinaria = prestamo / 2
+cuotaOrdinaria = baseCuotaOrdinaria / 20
+valorCuotaOrdinaria = cuotaOrdinaria + (cuotaOrdinaria * 0.24)
+totalAPagar = (valorCuotaEsp * 4) + (valorCuotaOrdinaria * 20)
 
-
-
-
+print(f'El valor de cada cuota especial es de: ${valorCuotaEsp}')
+print(f'El valor de cada cuota ordinaria es de: ${valorCuotaOrdinaria}')
+print(f'El monto total a pagar es de: ${totalAPagar}')
