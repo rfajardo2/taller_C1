@@ -153,6 +153,12 @@ costo = (saldoInicial - saldoFinal) * 1.20
 
 print(f'El costo de la llamada es: ${costo}')
 
+# ejercicio 10. 
+
+fotos = int(input('Digite la cantidad de fotos a revelar: '))
+valor = (fotos *1500 )*1.16
+
+print(f'El valor a pagar es: ${valor}')
 
 
 
