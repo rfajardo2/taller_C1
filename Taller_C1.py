@@ -62,7 +62,7 @@ print(f"ej 1.3 Resultado: {ej1_3resultado}")
 
 # ------ Desarrollo de algoritmos------ Taller parte 2
 
-# ejercicio 1
+# ejercicio 1.
 
 pres = float(input('digite el valor de la presión: '))
 vol = float(input('digite el valor del volumen: '))
@@ -70,6 +70,13 @@ temp = float(input('digite el valor de la temperatura: '))
 masa = (pres*vol)/((temp+460) * 0.37)
 
 print(f'El valor de la masa es: {masa}')
+
+# ejercicio 2. 
+
+edad = int(input('digite la edad de la persona: '))
+pulsaciones = (200-edad)/10
+
+print(f'La persona debe tener: {pulsaciones} / s')
 
 
 
