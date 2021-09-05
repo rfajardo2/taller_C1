@@ -186,8 +186,20 @@ personas = int(input('Digite la cantidad de personas en la famimlia: '))
 dias = int(input('Digite la cantidad de dias del tour: '))
 precioBase = (personas * 25000) * dias 
 IVA = (precioBase * 12) / 100
-precioTotal = IVA + precioBase
+totalTour = IVA + precioBase
 
-print(f'El valor a pagar por el tour es: ${precioTotal}')
+print(f'El valor a pagar por el tour es: ${totalTour}')
+
+
+# ejercicio 14.
+
+dias = float(input('Digite la cantidad de dias durante la estadía: '))
+valor = (dias * 200000)-100000
+
+print(f'El valor de su estadia es: ${valor}')
+
+
+
+
 
 
