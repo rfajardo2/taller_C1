@@ -101,7 +101,7 @@ saldoFin = saldoIni - interes
 
 print(f'El saldo final del ahorrador es: ${saldoFin}')
 
-# 5.
+# ejercicio 5.
 
 sueldoBase = float(input('Digite el sueldo base: $'))
 leyPublica = sueldoBase * 0.01
@@ -118,6 +118,17 @@ print(f'El descueto por caja de ahorro es: ${cajaAhorro}')
 
 print(f'El total a pagar es: ${totalDes}')
 
+# ejercicio 6.
+
+palabras = int(input('Digite la cantidad de palabras: '))
+centimetros = int(input('Digite los centimetros: '))
+colores = int(input('Digite la cantidad de colores: '))
+valorPalabras = palabras * 20000
+valorCentimetros = centimetros * 15000
+valorColores = colores * 25000
+valorTotal = valorPalabras + valorCentimetros + valorColores
+
+print(f'El total a pagar por el aviso es: ${valorTotal}')
 
 
 
