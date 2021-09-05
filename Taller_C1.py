@@ -130,6 +130,11 @@ valorTotal = valorPalabras + valorCentimetros + valorColores
 
 print(f'El total a pagar por el aviso es: ${valorTotal}')
 
+# ejercicio 7. 
+
+años = float(input('Digite la cantidad de años elaborados en la empresa: '))
+    bono = (años * 120000)-20000
+    print(f'El valor de su bono es: ${bono}')
 
 
 
