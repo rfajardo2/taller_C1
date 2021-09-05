@@ -101,6 +101,22 @@ saldoFin = saldoIni - interes
 
 print(f'El saldo final del ahorrador es: ${saldoFin}')
 
+# 5.
+
+sueldoBase = float(input('Digite el sueldo base: $'))
+leyPublica = sueldoBase * 0.01
+seguroSocial = sueldoBase * 0.04
+seguroForzoso = sueldoBase * 0.005
+cajaAhorro = sueldoBase * 0.05
+
+totalDes = leyPublica + seguroSocial + seguroForzoso + cajaAhorro
+
+print(f'El descueto de la ley publica es: ${leyPublica}')
+print(f'El descueto del seguro social es: ${seguroSocial}')
+print(f'El descueto del seguro forzoso es: ${seguroForzoso}')
+print(f'El descueto por caja de ahorro es: ${cajaAhorro}')
+
+print(f'El total a pagar es: ${totalDes}')
 
 
 
