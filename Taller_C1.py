@@ -160,7 +160,16 @@ valor = (fotos *1500 )*1.16
 
 print(f'El valor a pagar es: ${valor}')
 
+# ejercicio 11.
 
+presupuesto = float(input('Digite el monto presupuestal total: $'))
+ginecologia = presupuesto * 0.4
+traumatologia = presupuesto * 0.3
+pediatria = presupuesto * 0.3
+
+print(f'El presupuesto de Ginecología es de: ${ginecologia}')
+print(f'El presupuesto de Traumatología es de: ${traumatologia}')
+print(f'El presupuesto de Pediatría es de: ${pediatria}')
 
 
 
