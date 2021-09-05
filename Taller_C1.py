@@ -171,7 +171,14 @@ print(f'El presupuesto de Ginecología es de: ${ginecologia}')
 print(f'El presupuesto de Traumatología es de: ${traumatologia}')
 print(f'El presupuesto de Pediatría es de: ${pediatria}')
 
+# ejercicio 12.
 
+peliculas = int(input('Digite la cantidad de peliculas a alquilar: '))
+dias = int(input('Digite la cantidad de días que tendrá las peliculas: '))
+promocion = 1500
+precio = ((peliculas * 1500) * dias ) - promocion
+
+print(f'El valor a pagar por el alquiler es: ${precio}')
 
 
 
