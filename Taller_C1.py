@@ -93,7 +93,13 @@ print(f'El porcentaje que invirtió el primer socio es: {porcentaje1} %')
 print(f'El porcentaje que invirtió el segundo socio es: {porcentaje2} %')
 print(f'El porcentaje que invirtió el tercer socio es: {porcentaje3} %')
 
+# ejercicio 4.
 
+saldoIni = float(input('Digite el saldo inicial: $'))
+interes = saldoIni * 0.015
+saldoFin = saldoIni - interes
+
+print(f'El saldo final del ahorrador es: ${saldoFin}')
 
 
 
