@@ -136,8 +136,22 @@ años = float(input('Digite la cantidad de años elaborados en la empresa: '))
 bono = ( años * 120000) - 20000
 print(f'El valor de su bono es: ${bono}')
 
+# ejercicio 8.
 
+h = int(input('Digite la cantidad de horas: '))
+base = h * 20000
+desc = base * 0.05
+paga = base - desc
 
+print(f'El sueldo del profesor es: ${paga}')
+
+# ejercicio 9. 
+
+saldoInicial = int(input('Digite el monto inicial de la tarjeta: '))
+saldoFinal = int(input('Digite el monto final de la tarjeta: '))
+costo = (saldoInicial - saldoFinal) * 1.20 
+
+print(f'El costo de la llamada es: ${costo}')
 
 
 
