@@ -180,5 +180,14 @@ precio = ((peliculas * 1500) * dias ) - promocion
 
 print(f'El valor a pagar por el alquiler es: ${precio}')
 
+# ejercicio 13.
+
+personas = int(input('Digite la cantidad de personas en la famimlia: '))
+dias = int(input('Digite la cantidad de dias del tour: '))
+precioBase = (personas * 25000) * dias 
+IVA = (precioBase * 12) / 100
+precioTotal = IVA + precioBase
+
+print(f'El valor a pagar por el tour es: ${precioTotal}')
 
 
