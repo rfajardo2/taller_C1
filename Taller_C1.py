@@ -60,8 +60,16 @@ print("ej 1.3 y = y = ((( (5+2-(( (8+2-4)^2 * 5+8+7/2 -30*5 ) / 2 * 5 -3))^2 * (
 print(f"ej 1.3 Resultado: {ej1_3resultado}")
 
 
+# ------ Desarrollo de algoritmos------ Taller parte 2
 
+# ejercicio 1
 
+pres = float(input('digite el valor de la presión: '))
+vol = float(input('digite el valor del volumen: '))
+temp = float(input('digite el valor de la temperatura: '))
+masa = (pres*vol)/((temp+460) * 0.37)
+
+print(f'El valor de la masa es: {masa}')
 
 
 
